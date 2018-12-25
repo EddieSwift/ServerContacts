@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="exit"
+        android:id="@+id/exit"/>
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_action_add"
+        android:title="add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete_all"
+        android:title="clear contacts" />
+    <item
+        android:id="@+id/refresh"
+        android:title="refresh" />
+
+</menu>
